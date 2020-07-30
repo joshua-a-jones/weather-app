@@ -5,6 +5,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Project setup
+This project requires a Open Weather Maps API key. Before compiling, you must make a file called `apiKeys.js` in the src directory. In the file, include the follwing code:
+
+```
+module.exports = {
+    "openWeatherKey" : <Your Open Weather maps API key>
+}
+```
+
 
 ```
 npm install
