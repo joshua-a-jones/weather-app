@@ -13,7 +13,7 @@ module.exports = {
 }
 ```
 
-
+### installs required node modules
 ```
 npm install
 ```
