@@ -1,9 +1,11 @@
 h1 {
     margin: 0;
+    font-weight: 600;
 }
 
 h4 {
     margin: 0;
+    font-weight: 400;
 }
 
 .card {
@@ -19,7 +21,7 @@ h4 {
     background-image: linear-gradient(rgb(0, 255, 200), rgb(173, 223, 230));
     padding-top: 2em;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .row {
@@ -54,4 +56,8 @@ h4 {
 i {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
+}
+
+.thin-font {
+    font-weight: 300;
 }

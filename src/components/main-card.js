@@ -86,7 +86,7 @@ class MainCard extends React.Component {
                 <h1>{this.state.placeName}</h1>
                 <h4>{this.getFormattedDate()}</h4>
                 <i className = {`owf owf-${this.state.icon} owf-5x`} />
-                <h1>{ <>{this.kelvinToFahrenheit(this.state.temp)}&deg;F </>}</h1>
+                <h1 className ={'thin-font'}>{ <>{this.kelvinToFahrenheit(this.state.temp)}&deg;F </>}</h1>
                 <p> {this.toTitleCase(this.state.description)}</p>
                 <span className = {'row row-spaced'}>
                     <div className = {'col col-spaced'}>
