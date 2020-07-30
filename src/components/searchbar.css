@@ -1,0 +1,40 @@
+input {
+    width: 100%;
+    font-size: 24pt;
+    border: none;
+    padding: 0 0 0 10px;
+}
+
+form {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+.button-blank {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: none;
+}
+
+.button-icon {
+    margin: 0;
+    font-size: 16pt;
+    color:rgba(25,25,25,.75);
+}
+
+.button-icon:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+
+
+.border-bar {
+    border: solid 1px gray;
+    border-radius: 4px;
+    margin: 20px auto;
+}

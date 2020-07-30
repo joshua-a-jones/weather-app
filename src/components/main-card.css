@@ -1,0 +1,57 @@
+h1 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.card {
+    border: solid 1px darkgrey;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 2px grey;
+    width: 300px;
+    height: 400px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgb(0, 255, 200), rgb(173, 223, 230));
+    padding-top: 2em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-spaced {
+    margin: 0 30px;
+}
+
+.row-spaced {
+    margin: 1em auto;
+}
+
+.fontsize10 {
+    font-size: 10pt;
+}
+
+.owf-large {
+    font-size: 8em;
+    color: lightgray;
+}
+
+i {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
