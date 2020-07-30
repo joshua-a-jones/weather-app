@@ -39,7 +39,7 @@ class MainCard extends React.Component {
                 const humidity = data.main.humidity;
                 const wind = data.wind.speed;
                 const description = data.weather[0].description;
-                const icon = data.weather[0].id;
+                const icon = data.weather[0].icon;
     
                 this.setState({
                     icon: icon,
@@ -85,7 +85,7 @@ class MainCard extends React.Component {
             <div className = {'card'}>
                 <h1>{this.state.placeName}</h1>
                 <h4>{this.getFormattedDate()}</h4>
-                <i className = {`owf owf-${this.state.icon} owf-5x`} />
+                <img src = {`http://openweathermap.org/img/wn/${this.state.icon}@2x.png`} />
                 <h1 className ={'thin-font'}>{ <>{this.kelvinToFahrenheit(this.state.temp)}&deg;F </>}</h1>
                 <p> {this.toTitleCase(this.state.description)}</p>
                 <span className = {'row row-spaced'}>
